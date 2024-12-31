@@ -1,0 +1,135 @@
+@charset "UTF-8";
+html,body,div,span,object,iframe,img,p,h1,h2,h3,h4,h5,h6,
+blockquote,pre,abbr,address,cite,code,del,dfn,em,ins,kbd,q,samp,
+small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,
+form,label,legend, table,caption,tbody,tfoot,thead,tr,th,td,
+article,aside,canvas,details,figcaption,figure,footer,header,nav,section,
+time,mark,audio,video{
+    margin:0;
+	padding:0;
+	border:0;
+	outline:0;
+	font-size:100%;
+	vertical-align:baseline;
+	background:transparent;
+}
+#headhead {
+    margin: 0 0 10px;
+	padding: 10px;
+	font-size: 1.2em;
+	color: rgb(63, 61, 76);
+    background-color: #ffffff;
+	border-radius: 2px;
+	line-height: 1.2em;
+	background: linear-gradient(#A3E8FD,#26C6F8);
+}
+#logo {
+    position: relative;
+    float:left;width:112px;height:auto;
+}
+
+
+nav {
+    text-align: right;
+    text-shadow: 0 0 3px black;
+}
+nav ul, nav li {
+
+	list-style-type:none;
+	display:inline;
+	padding:0px 3px;
+}
+nav li a {
+	color: #FFF;
+	font-size: 0.6em;
+	text-decoration: none;/*リンクテキストのかざりなし*/
+	border-right: 1px solid #666;
+	padding: 0px 5px;
+}
+section ul, section li{
+	padding-bottom: 25px;
+}
+section ol, section li, ul{
+	padding-left: 15px;
+}
+body {
+    margin: 0;
+}
+.wrapper {
+    height: 100vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    perspective: 10px;
+}
+header {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    transform-style: preserve-3d;
+    z-index: -1;
+}
+.bg {
+    transform: translateZ(-10px) scale(2);
+}
+.fg {
+    transform: translateZ(-5px) scale(1.5);
+}
+.bg,
+.fg {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    z-index: -1;
+
+
+}
+.title {
+    font-size: 5rem;
+    color: white;
+    text-shadow: 0 0 5px black;
+    text-align: center;
+
+}
+section {
+    position: relative;
+    padding: 2rem;
+    background-color: #A3E8FD;
+
+    
+    font-size: 0.9em;
+	line-height: 1.6em;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif,"Hiragino Kaku Gothic Pro",Meiryou, Osaka, MS PGothic;
+	color: rgb(63, 61, 76);
+	width: 900px;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+	background-color: #A3E8FD;
+	
+	border-radius: 7px;
+}
+
+h2 {
+	font-size: 1.5em;
+	margin: 0px 60px;
+	padding: 5px;
+	border: 2px solid #26C6F8;
+	border-radius: 10px;
+	color: rgb(63, 61, 76);
+}
+
+h2 {
+	margin: 0 0 10px;
+	padding: 10px;
+	font-size: 1.2em;
+	color: rgb(63, 61, 76);
+	font-weight: bold;
+	background-color: #ffffff;
+	border-radius: 10px;
+	line-height: 1.2em;
+	background: linear-gradient(#A3E8FD,#26C6F8);
+}
